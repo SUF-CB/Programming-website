@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Programming Webpage</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="/style.css" />
+     <script src="/script.js" defer></script><!---external link to javascript--->
+     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="shortcut icon" href="https://cdn.glitch.com/a4312852-36b0-438f-a76d-f53083ae0455%2Fimages.jpeg?v=1598110148937">
+  </head>
+  <body>
+    <h1>Programming</h1>
+       <div class="topnav" id="myTopnav">
+      <a href="index.html">Home</a>
+      <a href="history.html">History of Programming languages</a>
+    <a href="Generation.html">Generation of Programming languages</a>
+      <a href="types.html">Types of Programming</a>
+      <a href="factors.html">The Factors</a>
+      <a href="cycle.html">Programming lifecycle</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>    
+    <br /><br /><br /><br /><br /><br />
+    <h2 id="suf"></h2>
+    <img
+      src="https://www.commondreams.org/sites/default/files/styles/cd_large/public/views-article/artificial_intelligence.jpg?itok=_ObivqCu"
+      alt="artificial_intelligence"
+      height="170"/>
+    <script>
+
+      window.onload = type;
+      var i = 0;
+      var txt =
+        "Always Remember Practise makes perfect if you want to be a succesful programmer! ~Sufyaan Shaikh~";
+
+      var speed = 50;
+
+      function type() {
+        if (i < txt.length) {
+          document.getElementById("suf").innerHTML += txt.charAt(i);
+          i++;
+          setTimeout(type, speed);
+        }
+      }
+    </script>
+  </body>
+</html>
+
